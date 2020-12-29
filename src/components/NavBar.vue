@@ -24,7 +24,7 @@
       <v-btn :disabled="!dataAvailable" @click="searchMovie">
         <span class="mr-2"> <v-icon black>mdi-file-find</v-icon></span>
       </v-btn>
-      <v-btn flat icon color="red lighten-2" router to="/about">
+      <v-btn text icon color="red lighten-2" router to="/about">
         <v-icon>mdi-information</v-icon>
       </v-btn>
     </v-app-bar>
